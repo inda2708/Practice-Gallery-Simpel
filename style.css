@@ -10,7 +10,8 @@ body {
   height: auto;
   overflow-y: scroll;
   margin: 0;
-  background-color: #3f578b;
+  background-image: url(bacground.jpg);
+  background-size: cover;
 }
 .box {
   background-size: cover;
@@ -33,20 +34,19 @@ body {
   display: flex;
   overflow-x: hidden;
   width: 90vw;
+  margin: auto;
 }
 .container2 {
   display: flex;
   overflow-x: hidden;
   width: 90vw;
+  margin: auto;
 }
 .container3 {
   display: flex;
+  overflow-x: hidden;
   width: 90vw;
-}
-
-.container4 {
-  display: flex;
-  width: 90vw;
+  margin: auto;
 }
 
 .box.zoom-out {
@@ -65,34 +65,33 @@ body {
   bottom: 0;
   border-radius: 0px 0px 15px 15px;
 }
-.button{
-   position: absolute;
-    padding: 10px 20px;
-    background-color: rgba(244, 155, 61, 0.685);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
+.button {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(244, 155, 61, 0.685);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
 }
-  .box {
-    width: 90%;
-    height: 50vh;
-  }
+.box {
+  width: 90%;
+  height: 50vh;
+}
 
-.left{
-  top:10px;
+.left {
+  top: 10px;
   left: 10px;
 }
 
-.right{
-  top:10px;
-  left:10px;
+.right {
+  top: 10px;
+  left: 10px;
 }
 
-  .box:nth-of-type(4),
-  .box:nth-of-type(5) {
-    display: none;
-  }
-
+.box:nth-of-type(4),
+.box:nth-of-type(5) {
+  display: none;
+}

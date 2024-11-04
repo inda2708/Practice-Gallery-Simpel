@@ -1,4 +1,4 @@
-function playAudio(id) { 
+/*function playAudio(id) { 
     const audio = document.getElementById(id) ;
     if (audio.berhenti) {
     stopAllAudio();
@@ -15,4 +15,4 @@ function stopAllAudio(){
         audio.pause();
         audio.currentTime = 0;
     });
-}
+}*/
